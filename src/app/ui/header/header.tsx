@@ -1,4 +1,4 @@
-import { AlexBrush, JosefinSans } from "../layout";
+import { AlexBrush, JosefinSans } from "../../layout";
 import styles from "./header.module.css";
 
 export default function Header() {
