@@ -5,7 +5,7 @@ import styles from "./welcome.module.css";
 
 export default function Welcome() {
     return (
-        <div className={`${styles.content} ${JosefinSans.variable}`}>
+        <div className={`${styles.content} ${JosefinSans.variable}`} id="#home">
             <div className={`${styles.contentLeft}`}>
                 <Image src={WelcomeImg} alt="Welcome" />
             </div>

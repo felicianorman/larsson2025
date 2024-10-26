@@ -1,9 +1,10 @@
 .content {
     display: flex;
-    height: 50vh;
+    height: 60vh;
     background-color: #F8F8F8;
     justify-content: space-evenly;
     align-items: center;
+
 
     .contentLeft {
         height: inherit;
@@ -13,7 +14,7 @@
         align-items: center;
 
         img {
-            width: 50%;
+            width: 70%;
             height: auto;
         }
     }
@@ -21,12 +22,11 @@
         width: 50%;
         height: inherit;
         display: flex;
-        justify-content: center;
         align-items: center;
         font-family: var(--font-josefin-sans);
-  
 
         p {
+           margin-left: 5%;
             width:70%;
             font-size: 20px;
             color: #523200;

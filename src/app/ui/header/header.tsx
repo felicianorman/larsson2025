@@ -7,14 +7,15 @@ export default function Header() {
             <div className={`${styles.bannerContent}`}>
                 <p>Björn & Felicia</p>
                 <ul className={`${JosefinSans.variable}`}>
-                    <li>Hem</li>
+                    <li>
+                        <a href="#home">Hem</a>
+                    </li>
                     <li>Vigseln</li>
                     <li>Festen</li>
                     <li>Bra att veta</li>
                     <li>OSA</li>
                 </ul>
             </div>
-     
         </div>
     );
 }
