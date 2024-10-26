@@ -1,0 +1,37 @@
+.content {
+    display: flex;
+    height: 60vh;
+    background-color: #F8F8F8;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    .contentLeft {
+        height: inherit;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 70%;
+            height: auto;
+        }
+    }
+    .contentRight {
+        width: 50%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        font-family: var(--font-josefin-sans);
+
+        p {
+           margin-left: 5%;
+            width:70%;
+            font-size: 20px;
+            color: #523200;
+        }
+
+    }
+  
+}

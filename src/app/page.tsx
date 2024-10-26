@@ -1,5 +1,12 @@
-import Header from "./ui/header";
+import Header from "./ui/header/header";
+import Welcome from "./ui/welcome/welcome";
 
 export default function Page() {
-    return <Header />;
+     return (
+         <>
+             <Header />
+             <Welcome />
+         </>
+     );
+
 }
