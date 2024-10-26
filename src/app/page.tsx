@@ -1,5 +1,5 @@
-import Home from "./ui/home";
+import Header from "./ui/header";
 
 export default function Page() {
-    return <Home />;
+    return <Header />;
 }

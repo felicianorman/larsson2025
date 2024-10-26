@@ -9,7 +9,7 @@ export const AlexBrush = localFont({
   weight: "400",
 })
 
-const JosefinSans = localFont({
+export const JosefinSans = localFont({
   src : "./fonts/JosefinSans-VariableFont_wght.ttf",
   variable: "--font-josefin-sans",
   weight: "400",
