@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { AlexBrush, JosefinSans } from "../../layout";
+import { JosefinSans } from "../../layout";
 import WelcomeImg from "../../public/MixCollage-26-Oct-2024-03-15-PM-4501.jpg";
 import styles from "./welcome.module.css";
 
